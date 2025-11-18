@@ -4,17 +4,10 @@ This repository contains the complete hardware, firmware, and software for a cus
 
 The platform consists of multiple wearable sensor nodes, a central receiver unit, and a desktop application for system configuration, live data monitoring, and logging.
 
-![Thesis Cover](path/to/your/thesis_cover_image.jpg) 
-*(Optional: Add a screenshot of your thesis cover page here. Replace `path/to/your/thesis_cover_image.jpg` with the actual path once you upload the image to your repository.)*
-
----
 
 ## System Architecture
 
 The system is designed around a star network topology where multiple independent transmitter nodes send data to a single central receiver connected to a host computer.
-
-![System Diagram](path/to/your/system_diagram.png)
-*(Optional but highly recommended: Create a simple block diagram and add it here.)*
 
 *   **Transmitter Nodes (9 units):** Each node is a self-contained, battery-powered wearable device.
     *   **Microcontroller:** Atmega8 (AVR)
